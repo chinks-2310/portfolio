@@ -4,7 +4,6 @@ import Particle from '../Particle';
 import './index.css';
 import Type from './Type';
 import myLogo from '../../assets/images/chintan_logo.jpg'
-import TimeLine from './TimeLine';
 import About from '../About/About';
 
 function Home() {

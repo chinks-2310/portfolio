@@ -8,10 +8,8 @@ import {
 import './navbar.css';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import { CgFileDocument } from "react-icons/cg";
-
 function NavBar() {
-  const [navColour, updateNavbar] = useState(false);
+  const [, updateNavbar] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
