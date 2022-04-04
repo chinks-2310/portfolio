@@ -16,6 +16,18 @@ a:hover {
     line-height: normal;
 }
 
+@media (max-width: 767px) {
+    .logo {
+        display: block;
+        flex: none;
+        float: left;
+        font-size: 1.1em;
+        text-decoration: none;
+        margin-top: 10px;
+        line-height: normal;
+    }
+}
+
 .logo-name {
     font-family: "Agustina Regular";
     font-weight: bold;
